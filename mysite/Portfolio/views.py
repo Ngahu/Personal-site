@@ -1,6 +1,9 @@
 from django.shortcuts import render
-
+from django.http import HttpResponse
+from django import template
+from django.template import loader
 
 def index(request):
-    """returns the index page of the site """
+    template = loader.get_template('Portfolio/index.html')
 
+    return HttpResponse(template.render(request))
