@@ -1,5 +1,7 @@
-from django.http import HttpResponse
+from django.shortcuts import render
+
+
 
 def index(request):
     """incharge of returning the home page """
-    return HttpResponse("tesla")
+    return render(request, 'Portfolio/index.html', {})
