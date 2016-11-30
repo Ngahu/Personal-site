@@ -2,3 +2,18 @@
     margin-top:20%;
     text-align: center;
 }
+
+.home-search-bar{
+  max-width: 586px;
+  margin-top: 20px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  min-height: 38px;
+  border: 1px solid #4d90fe;
+  padding-top: 5px;
+  padding-right: 9px;
+  padding-bottom: 0px;
+  padding-left: 9px;
+
+}
